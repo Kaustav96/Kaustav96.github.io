@@ -1,838 +1,872 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kaustav Banerjee</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-<head>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-    <title>Kaustav Banerjee</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/me1.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Kaustav Banerjee</a></h1>
+				<span class="position">Associate Software Engineer/ Google Developer Member in Bengaluru, Karnataka, India</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<!-- <li><a href="#" data-nav-section="services">Services</a></li> -->
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="achieve">Achievement</a></li>
+						<li><a href="#" data-nav-section="blog">Certification</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
+					All rights reserved | This template is made with 
+					<i class="icon-heart" aria-hidden="true"></i> by Kaustav Banerjee.
+				<ul>
+					<li><a href="https://www.facebook.com/apocalypsekaustavwolv" target="_blank"><i class="icon-facebook2" style="color:blue"></i></a></li>
+					<li><a href="https://github.com/Kaustav96" target="_blank"><i class="icon-github" style="color:darkgray"></i></a></li>
+					<li><a href="https://www.instagram.com/kaustav_96" target="_blank"><i class="icon-instagram" style="color:pink"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/kaustavbanerjee96" target="_blank"><i class="icon-linkedin2" style="color:lightblue"></i></a></li>
+				</ul>
+			</div>
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		</aside>
 
-</head>
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Kaustav</h1>
+						   					<h2>
+												<p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1puoUmFdM-iqWy7uhIeEjdckriz90MXL8/view?usp=sharing" target="_blank">Download CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/img_bg_2.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>I am <br>an Associate Software Engineer</h1>
+												<p><a class="btn btn-primary btn-learn" href="#about">View Portfolio <i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+<!--About starts-->
+			<section class="colorlib-about" data-section="about" id="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p>
+											<strong>Hi I'm Kaustav Banerjee</strong>
+											Seeking a prospective career in the field of Information technology and services.
+										</p>
+										<p>
+												Experienced Software Engineer with 1-year experience including 6 months of R&D experience and demonstrated history of working in the Information Technology and services industry. 
+												Certified UiPath Developer.
+												Skilled in Robotics Process Automation(RPA), UiPath, PHP, AngularJs, Databases, and Web Development.
+												Skilled in creating Actions for Google Assistant.
+												Motivated and hardworking professional with an eye to learning new technologies and holding a Bachelor's Degree in Computer Science from Kalinga Institute of Industrial Technology, Bhubaneswar.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-google"></i></span>
+										<h3>Action for Google </h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Web Design</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Software</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Application</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to tell you <br>that 12 projects have been done sucessfully!</h2>
+										<a href="#contact" data-nav-section="contact" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="415" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Cups of coffee</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="12" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projects</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="3" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Clients</span>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--About ends-->
 
-<body id="page-top" class="index">
-    
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+<!--Skill section starts-->
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>
+								These are the skills that I am comfortable in working - 
+							</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Java</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>JavaScript</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML5</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>AngularJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>NodeJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>PHP</h3>
+									<div class="progress">
+									 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="75"
+									 	 aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>80%</span>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3>MySQL</h3>
+									<div class="progress">
+										 <div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+										  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+										<span>80%</span>
+										  </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>RPA</h3>
+										<div class="progress">
+											 <div class="progress-bar color-6" role="progressbar" aria-valuenow="75"
+											  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>80%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+					</div>
+				</div>
+			</section>
+<!--Skills scetion ends-->
+<!--Education section starts-->
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Bachelor Degree of Computer Science & Engineering
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>
+													<a href="https://kiit.ac.in" target="_blank">
+														<div class="thumbnail">
+															
+																<img src="images/kiit.jpg" alt="Kalinga Institue of Industrial Technology, Bhubaneswar">
+																<div class="caption">
+																		<strong>Kalinga Institue of Industrial Technology, Bhubaneswar</strong>
+																		Odisha-751024
+																</div>
+															
+														</div>
+													</a>
+												</p>
+													<ul>
+														<li>
+															<a href="https://cse.kiit.ac.in/" target="_blank">
+																B.Tech | Class of 2018 (Computer Science & Engineering)
+															</a>
+														</li>
+														<li><strong>CGPA - </strong>8.08</li>
+													</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFive">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+													All India Higher Secondary Examination
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									        <div class="panel-body">
+									            <p>
+													<a href="https://webiste.dpsfsis.com" target="_blank"> 
+														<div class="thumbnail">
+															<img src="images/dps.jpg" alt="Delhi Public School, Faridabad">
+															<div class="caption">
+																<strong>
+																	Delhi Public School, Faridabad
+																</strong>
+																Haryana-121006
+															</div>
+														</div>
+												</p>
+													<ul>
+														<li>
+																<a href="https://en.wikipedia.org/wiki/All_India_Senior_School_Certificate_Examination">
+																	AISSCE 2014(12th)
+																</a>
+														</li>
+														<li><strong>Board - </strong> CBSE</li>
+														<li><strong>Percentage - </strong>89.2</li>
+													</ul>
+									        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingFive">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+														All India Secondary Examination
+													</a>
+												</h4>
+											</div>
+											<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+												<div class="panel-body">
+													<p>
+														<a href="https://webiste.dpsfsis.com" target="_blank"> 
+															<div class="thumbnail">
+																<img src="images/dps.jpg" alt="Delhi Public School, Faridabad">
+																<div class="caption">
+																	<strong>
+																		Delhi Public School, Faridabad
+																	</strong>
+																	Haryana-121006
+																</div>
+															</div>
+													</p>
+														<ul>
+															<li>
+																	<a href="https://en.wikipedia.org/wiki/All_India_Senior_School_Certificate_Examination">
+																		AISSE 2012(10th)
+																	</a>
+															</li>
+															<li><strong>Board - </strong> CBSE</li>
+															<li><strong>CGPA - </strong>9.60</li>
+														</ul>
+												</div>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--Education section ends-->
+<!--Experience Section starts-->
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom" ">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" >
-                </a>
-            </div>
-            <div class="navbar-brand">
-            <a href="https://linkedin.com/in/kaustavbanerjee96 "><i class="fa fa-linkedin"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;  
-                <a href="https://github.com/Kaustav96"><i class="fa fa-github"></i></a>   &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://plus.google.com/u/0/109936839998276967311"><i class="fa fa-google"></i></a>   &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.facebook.com/apocalypsekaustavwolv"><i class="fa fa-facebook"></i></a>   &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.instagram.com/kaustav_96/"><i class="fa fa-instagram"></i></a>  &nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top">Hi</a>
-                    </li>
-                    
-                    <li class="page-scroll">
-                        <a href="#about">About Me</a>
-                    </li>
-                     <li class="page-scroll">
-                        <a href="#education">Education</a>
-                    </li>
-                     <li class="page-scroll">
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#certifications">Certifications</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#achievements">Achievements</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://drive.google.com/file/d/1puoUmFdM-iqWy7uhIeEjdckriz90MXL8/view?usp=sharing" target="_blank"><i class="fa fa-file-text page-scroll"></i> Resume</a>
-                    </li>
-
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <br><br>
-                    <img class="img-responsive" src="img/me1.jpg" alt="Profile Picture" height="200" width="300">
-                    <div class="intro-text">
-                        <h1 class="name">Kaustav Banerjee</h1>
-                        <hr class="star-light">
-                        <span class="skills">Associate Software Engineer || RPA Developer </span>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </header>
-
- <!-- About Section -->
-    <section class="success" id="about" style="background: rgb(0,0,0);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2><i class="material-icons" style="font-size:52px;color:goldenrod;">person</i>
-                        About <i class="material-icons" style="font-size:52px;color:goldenrod;">person</i></h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>
-                        A highly motivated computer engineer having 6 months R&D experience and seeking to fill the position of software engineer where my skills will be beneficial to the company.                      
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p>
-                        Offering expertise in Java, HTML and Web Development.
-                        Other areas of interest are competitive coding, playing football and writing articles.                        
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>  
-
-
-
-
-    
-    <!-- Education Grid Section -->
-    <section id="portfolio">
-    <div id="education">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2><span class="glyphicon glyphicon-education"style="font-size:52px;"></span> 
-                        Education <span class="glyphicon glyphicon-education"style="font-size:52px;"></span></h2>
-                    
-                    <hr class="star-primary">
-                </div>
-            </div>
-
-
-            <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <a href="http://kiit.ac.in/">
-                        <div class="thumbnail">
-                            <img src="img/kiit.jpg" alt="Kalinga Institute of Industrial Technology, Bhubaneswar"/>
-                            <div class="caption">
-                                <h4>Kalinga Institute of Industrial Technology, Bhubaneswar <br>Odisha - 751024</h4>
-                                <h4 class="pull-right">CGPA: 8.08</h4>
-                                <a href="http://cse.kiit.ac.in/"><p>B.Tech | Class of 2018 <br>(Computer Engineering) </a></a>
-                                </p>
-                                
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <a href="http://website.dpsfsis.com/">
-                        <div class="thumbnail">
-                            <img src="img/dps.jpg" alt="DPS Faridabad, Haryana">
-                            <div class="caption">
-                                <h4>Delhi Public School, Faridabad, Haryana-121006</h4>
-                                <h4 class="pull-right">89.2%</h4>
-                                <p><a href="https://en.wikipedia.org/wiki/All_India_Senior_School_Certificate_Examination">AISSCE 2014(12th)</a>
-                                </p>
-                                
-                            </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <a href="http://website.dpsfsis.com/">
-                        <div class="thumbnail">
-                            <img src="img/dps.jpg" alt="DPS Faridabad, Haryana">
-                            <div class="caption">
-                                <h4>Delhi Public School, Faridabad, Haryana - 121006</h4>
-                                <h4 class="pull-right">9.60 CGPA</h4>
-                                <p><a href="https://en.wikipedia.org/wiki/All_India_Secondary_School_Examination">AISSE 2012(10th)</a>
-                                </p>
-                                
-                            </div>
-                            
-                        </div>
-                        </a>
-                    </div>
-
-                    
-
-            </div>
-        </div>
-    </div>
-    </section>
-
-
-<!-- Experience Section -->
-    <section class="success" id="experience" style="background: rgb(0,0,0);">                                            
-                                                                                                                                                        
-                                                                            
-          	  <div class="container">
-        <div class="row">
-          <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Experience</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-                                            
-            <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    
-                        <h3 class="post-title" style="color: #18BC9C;">
-                            <i class="fa fa-briefcase" style="color:red"></i> CGI, Bangalore
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            Associate Software Engineer | Dec 2018 – Present | Bengaluru, Karnataka
-                        </h4>
-                    
-                    <p class="post-meta">
-                        <ol>
-                            <li>Completed Training on UiPath by undergoing Level 1-3 training.</li>
-                            <li>Completed the Advanced Developer Certification given by UiPath RPA Academy.</li>
-                            <li>Created a Proof Of Concept(POC) in UiPath.</li>
-                        </ol>
-                    </p>
-                </div>
-                <hr>                                               
-           </div>
-         </div>
-     </div>
- 
-         </div>
-         </div>
-     </div>
- 
-         </div>
-            <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-briefcase" style="color:red"></i>    HP R&D(HP Inc.) , Bangalore
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            R&D Intern | January 2018 – July 2018 | Bengaluru, Karnataka
-                        </h4>
-                    
-                    <p class="post-meta">
-                        <ol>
-                            <li>Correct errors by making appropriate changes and rechecking the program to ensure that the desired results are produced.</li>
-                            <li>Prepare detailed workflow charts and diagrams that describe input, output, and logical operation, and convert them into a series of instructions coded in a computer language.</li>
-                            <li>Develop application-specific software.</li>
-                        </ol>
-                    </p>
-                </div>
-                <hr>
-                                                              
-           </div>
-         </div>
-     </div>
- 
-         </div>
-                                                                    
-            <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-briefcase" style="color:red"></i>   ParamHans Infotec Pvt. Ltd. 
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            Web Developer Intern | May 2017 – August 2017 | Faridabad, Haryana
-                        </h4>
-                    <p class="post-meta">
-                        <ol>
-                            <li>Worked in the development team as a Web Developer to create a online shopping website on Clothing and Footwear Accesories.</li>
-                        </ol>
-                    </p>
-                </div>
-                <hr>
-                             
-            </div>
-        </div>
-    </div>
-    <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-preview">
-                            <h3 class="post-title" style="color: #18BC9C;">
-                                    <i class="fa fa-briefcase" style="color:red"></i>     Make Room India 
-                            </h3>
-                            <h4 class="post-subtitle" style="color: #18BC9C;">
-                                Web Developer Intern | May 2017 – July 2017 | Faridabad, Haryana
-                            </h4>
-                        <p class="post-meta">
-                            <ol>
-                                <li>Worked in the development team as a Web Developer to create a 
-                                    new and more responsive website.</li>
-                            </ol>
-                        </p>
-                    </div>
-                    <hr>
-                                 
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-    <!-- Projects Section -->
-    <section id="contact">
-    <div id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects
-                    </h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-   <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class='fa fa-folder-open' style='font-size:48px;color:goldenrod'></i> Heterogeneous Object Billing System 
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            January 2018 - July 2018 | HP Inc.
-                        </h4>
-                     <p class="post-meta">
-                            A universal billing system, in which I was a part of the development team creating the UI and writing API to add more features and make the manual work more automated.
-                     </p>
-                </div>
-                <hr>
-                                        
-               <div class="post-preview">
-                    <a href="http://fashionadda.web44.net" target="_blank">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class='fa fa-folder-open' style='font-size:48px;color:goldenrod'></i> Fashion Adda
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            May 2017 - August 2017 | ParamHans Infotec Pvt. Ltd.
-                        </h4>
-                    </a>
-                    <p class="post-meta">
-                            Developed an E-commerce website for the clothing Accesories, having all the functionalities including payment gateway.
-                            Deployed server using WAMP server and PHP as backend solution.
-                    </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                        <a href="http://rbs-card.web44.net" target="_blank">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class='fa fa-folder-open' style='font-size:48px;color:goldenrod'></i>   RBS Card Statement
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            Winter 2016 | Hackathon - HackerEarth
-                        </h4>
-                        </a>
-                    <p class="post-meta">
-                        Developed a website so that users can see their card statement and any pending amount to pay.
-                        Used WAMP Server and PHP as backend solution.
-                    </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class='fa fa-folder-open' style='font-size:48px;color:goldenrod'></i>   CarPooling System
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            December 2016 - April 2017| Minor Project
-                        </h4>
-                    <p class="post-meta">
-                        Developed a website on carpooling system and keeping women safety in mind. Improved women security in the website.
-                        Used Google Maps API to show the distance and time for the passenger accurately.
-                        Used .NET C# and SQL Server as the database.
-                    </p>
-                </div>
-                <hr>
-            </div>
-        </div>
-    </div>
-
-        </div>
-    </div>
-    </section>
-
-    <!--Certification ection-->
-    <section class="success" id="certifications" style="background: rgb(0,100,0);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Certifications</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                        <h3 class="post-title" style="color: #18BC9C;"><i class="fa fa-trophy" style="font-size:48px;color:gold"></i>
-                            RPA Advanced Developer Certification
-                        </h3>
-                    <p class="post-meta">
-                        <b>Issued On - </b> June 2019<br>
-                        <b>Credential ID - </b> 2104057132815881<br>
-                        <b>Link to view <a href="https://certificate.uipath.com/diploma/diploma.php">certificate</a>.</b>
-                    </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-trophy" style="font-size:48px;color:gold"></i>Docker Essentials: A Developer Introduction
-                        </h3>
-                    <p class="post-meta">
-                        <b>Issued On - </b> May 2019<br>
-                        <b>Credential ID - </b> fe433a2ea9794b6f96f75d51b2951187<br>
-                        <b>Link to view <a href=" https://courses.cognitiveclass.ai/certificates/fe433a2ea9794b6f96f75d51b2951187">certificate</a>.</b>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        </div>
-        
-    </section>
-    <!-- Achievements Section -->
-    <section class="success" id="achievements" style="background: rgb(0,0,0);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Achievements</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-trophy" style="font-size:48px;color:gold"></i>Google - Udacity India Scholarship | Udacity India
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                        </h4>
-                    
-                    <p class="post-meta">
-                        Got selected for 3 months free scholarship in the Mobile Web App Specialist Program. 
-                    </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-trophy" style="font-size:48px;color:gold"></i>American Express Internship Challenge | HackerEarth
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            3rd rank | July ’16
-                        </h4>
-                    
-                    <p class="post-meta">
-                        Developed a company specific card statement website so that the company employees can see their statements.
-                    </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-
-                        <h3 class="post-title" style="color: #18BC9C;">
-                                <i class="fa fa-trophy" style="font-size:48px;color:gold"></i> RBS Hiring Challenge | HackerEarth
-                        </h3>
-                        <h4 class="post-subtitle" style="color: #18BC9C;">
-                            Top 250 All Over India | July ’16
-                        </h4>
-                    
-                    <p class="post-meta">
-                        Developed a company specific card statement website so that the company employees can see their statements.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        </div>
-        
-    </section>
-
- <!-- Position of Responsibility -->
-    <section id="contact">
-    <div id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Positions of Responsibility</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
+					               <div class="timeline-label">
+									  <h2>
+										  <a>Associate Software Engineer</a> 
+											<span>
+												<strong>CGI,</strong>
+												Dec 2018 - Present
+											</span>
+										</h2>
+					                  <p>
+										  <ol>
+											  <li>Completed training on UiPath From Level 1 - Level 3 and Completed the Advanced Developer Certification on UiPath.</li>
+											  <li>Created POC on UiPath.</li>
+											  <li>Created a fully functional bot from scratch for client as per their requirements giving 100% accurate results.</li>
+											  <li>Created 3 websites using Angularjs & Firebase and Node.js and deployed them using heroku and firebase online.</li>
+										  </ol>
+									  </p>
+					               </div>
+					            </div>
+					         </article>
 
 
-   <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                        <h3 class="post-title">
-                                <i class="material-icons" style="font-size:32px;color:blue">person</i> Project Leader | Software Engineering Lab 
-                        </h3>
-                        <h4 class="post-subtitle">
-                            December 2016 - April 2017
-                        </h4>
-                     <p class="post-meta">
-                        Leading a team of 5 members, created a women safety centric carpooling system website,
-                        as part of the minor project in college.
-                    </p>
-                </div>
-                <hr>
-                                
-            </div>
-        </div>
-    </div>
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-google"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Action On Google</a> <span><strong>Google Developers, </strong>Aug 2019- Present</span></h2>
+					                  <p>
+										  <ol>
+											  <li>
+													<strong>Soccer Info - </strong>
+													Created Action for Google Assistant to help soccer fans to improve their knowledge for the game of football.
+													<br>To Launch on Google Assistant type/speak - Talk to Soccer Info.
+											  </li>
+											  <li>
+													<strong>Calculator Calculate - </strong>
+													Created Action for Google Assistant to help the user get a lucky number based on their favorite color(used node.js to write the code and dialogflow to implement the phrases).
+													<br>To Launch on Google Assistant type/speak - Talk to Calulator Calculate.
+											  </li>
+											  <li>
+													<strong>Periodic Element Flash Card - </strong>
+													A flashcard quiz game for students so that they can easily memorize and practice their periodic table knowledge.
+													<br>To Launch on Google Assistant type/speak - Talk to Periodic Element Flash Card.
+											  </li>
+											  <li>
+													<strong>Know Kolkata - </strong>
+													A short trivia quiz on Kolkata which will help others to know more about the city of joy.
+													<br>To Launch on Google Assistant type/speak - Talk to Know Kolkata.
+											  </li>
+										  </ol>
+									  </p>
+					               </div>
+					            </div>
+					         </article>
 
-        </div>
-    </div>
-    </section>
-    <!-- Footer -->
-    <footer class="text-center" id="contact_1">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Faridabad, Haryana</p>
-                        <p>India - 121002</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Contact</h3>
-                        <p><a href="mailto:kaustavbanerjee96@gmail.com?Subject=Found%20Via%20Website" target="_top"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;&nbsp;
-                            kaustavbanerjee96@gmail.com</a></p>
-                        <p><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;&nbsp;+91-8376916635</p>
-                    </div>
-                    <div class="footer-col col-md-4 mb-5 mb-lg-0">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7018.206220892116!2d77.33859047380977!3d28.416145430014463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcf815555545%3A0x1e63e93840d4204f!2sSRS+Royal+Hills!5e0!3m2!1sen!2sin!4v1515930814096" 
-                        width="300" height="300" frameborder="0" style="border:0" allowfullscreen>
-                    </iframe>
-                        </div>
-                </div>
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a>R&D Engineer</a> <span><strong>HP Inc., </strong>Jan 2018-Jul 2018</span></h2>
+					                  <p>
+										  <ol>
+											  <li>Worked in Managed Print Service R&D.</li>
+											  <li>Worked on various upcoming technologies like AngularJs Node.js and AWS. </li>
+											  <li>Wrote API to add new features to the existing project of the online billing system. </li>
+											  <li>Was in the UI Team for creating the UI for EMEA region.</li>
+										  </ol>
+									  </p>
+					               </div>
+					            </div>
+					         </article>
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+									   <h2>
+										   <a>Web Development Intern </a> 
+											<span><strong>ParamHans Infotec Limited, </strong>May 2017- Aug 2017</span></h2>
+					                  <p>
+										  <ol>
+										  	<li>Worked on live project and created a full working E-commerce clothing apparel website.</li>
+										  </ol>
+										</p>
+					               </div>
+					            </div>
+					         </article>
 
-                
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Kaustav Banerjee 2019
-                        <a  href="#page-top">
-                            <i class="fa fa-chevron-up" style="margin-left: 290px;font-size: 36px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+<!--Experience section ends-->
+<!--Project Section starts-->
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/soccer.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>Soccer Info</a></h3>
+										<span>
+											Action on Google #1
+											<p>
+												Created Action for Google Assistant to help soccer fans to improve their knowledge for the game of football.
+											</p>
+										</span>
+										<p class="icon">
+											<span><a target="_blank"href="https://assistant.google.com/services/a/uid/000000cbacb35467?hl=en"><i class="icon-share3"></i></a></span>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/pe.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>Chemicals</a></h3>
+										<span>
+											Action On Google #2
+											<p>
+												A flashcard quiz game for students so that they can easily memorize and practice their periodic table knowledge.
+											</p>
+										</span>
+										<p class="icon">
+											<span><a target="_blank" href="https://assistant.google.com/services/a/uid/000000c054a5afe5?hl=en"><i class="icon-share3"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/kol.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>Kolkata</a></h3>
+										<span>
+											Action on Google #3
+											<p>
+												A short trivia quiz on Kolkata which will help others to know more about the city of joy.
+											</p>
+										</span>
+										<p class="icon">
+											<span><a target= "_blank" href="https://assistant.google.com/services/a/uid/000000f1c0721d4b?hl=en"><i class="icon-share3"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/calc.webp);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>Lucky Number</a></h3>
+										<span>
+											Action on Google #4
+											<p>
+												Created Action for Google Assistant to help the user get a lucky number based on their favorite color(used node.js to write the code and dialogflow to implement the phrases).
+											</p>
+										</span>
+										<p class="icon">
+											<span><a target="_blank" href="https://assistant.google.com/services/a/uid/0000007bb5c33472?hl=en"><i class="icon-share3"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/h.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>HOBS</a></h3>
+										<span>
+											HP Inc.
+											<p>
+												A universal billing system, in which I was a part of the development team creating the UI and 
+												writing API to add more features and make the manual work more automated.
+											</p>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/f.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a>Fashion Adda</a></h3>
+										<span>
+											Paramhans Infotec Limited
+											<p>
+												Developed an E-commerce website for the clothing Accesories, having all the functionalities including payment gateway. 
+												Deployed server using WAMP server and PHP as backend solution.
+											</p>
+										</span>
+										<p class="icon">
+											<span><a target="_blank" href="http://fashionadda.web44.net"><i class="icon-share3"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--Project section ends-->
+<!--Achievement section starts-->
+<section class="colorlib-education" data-section="achieve">
+		<div class="colorlib-narrow-content">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+					<span class="heading-meta">Achievement</span>
+					<h2 class="colorlib-heading animate-box">Achievement</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+					<div class="fancy-collapse-panel">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingSeven">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+											GOOGLE - UDACITY INDIA SCHOLARSHIP | UDACITY INDIA
+										</a>
+									</h4>
+								</div>
+								<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+									<div class="panel-body">
+										<p>
+												Got selected for 3 months free scholarship in the Mobile Web App Specialist Program.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingFour">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											AMERICAN EXPRESS INTERNSHIP CHALLENGE | HACKEREARTH
+										</a>
+									</h4>
+								</div>
+								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									<div class="panel-body">
+										<p>
+											Developed a company specific card statement website so that the company employees can see their statements.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--Achievement section ends-->
+<!--Certification section starts-->
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Certification</span>
+							<h2 class="colorlib-heading">Recent Certification</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a class="blog-img"><img src="images/rpa.png" class="img-responsive"></a>
+								<div class="desc">
+									<span><small>June 10, 2019 </small> | <small> RPA Advanced Developer Certification</small></span>
+									<h3><a>Robotics Process Automation</a></h3>
+									<p>
+										Credential ID - 2104057132815881<br>
+										Link to view <a href="https://certificate.uipath.com/diploma/diploma.php">certificate</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="blog-entry">
+									<a class="blog-img"><img src="images/web.jpg" class="img-responsive"></a>
+									<div class="desc">
+										<span><small>february 27, 2019 </small> | <small> The Web Developer Bootcamp</small></span>
+										<h3><a> The Web Developer Bootcamp</a></h3>
+										<p>
+											Credential ID - UC-KHSVG9IY<br>
+											Link to view <a href="https://www.udemy.com/certificate/UC-KHSVG9IY/">certificate</a>.
+										</p>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</section>
+<!--Certification section ends-->
+<!--Contact section start-->
+			<section class="colorlib-contact" data-section="contact" id="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:kaustavbanerjee96@gmail.com?Subject=Found%20Via%20Website">kaustavbanerjee96@gmail.com</a></p>
+								</div>
+							</div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Tower C2, Flat Number - 1003, SRS Royal Hills, Sector-87, Faridabad-121002, Haryana</p>
+								</div>
+							</div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+91 - 8376916635</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7018.206220892116!2d77.33859047380977!3d28.416145430014463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcf815555545%3A0x1e63e93840d4204f!2sSRS+Royal+Hills!5e0!3m2!1sen!2sin!4v1515930814096" 
+										width="300" height="300" frameborder="0" style="border:0" allowfullscreen>
+									</iframe>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<!--Contact section ends-->
+		</div>
+	</div><!-- end:container-wrap -->
+	</div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-    
-
-</body>
-
+	</body>
 </html>
+
