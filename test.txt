@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kaustav Banerjee</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+    <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom" ">
+        <div class=" container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top">Home</a>
+                </li>
+
+                <li class="page-scroll">
+                    <a href="#about">About Me</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#achievements">Achievements</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#cert">Certifications</a>
+                </li>
+                <!-- <li class="page-scroll">
+                    <a href="#contact">Contact Me</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--Navigation ends-->
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1" style="padding-bottom: 70px;">
+            <div class="row">
+                    <div class="col-md-6">
+                            <img class="img-responsive" src="img/me1.jpg" alt="Profile Picture" height="200" width="300">
+                        </div><br>
+                <div class="col-md-6">
+                    <div class="intro-text">
+                        <h2 class="name">Kaustav Banerjee</h2>
+
+                        <hr class="star-light">
+                        <span class="skills" style="font-weight: bold">
+                            Associate Software Engineer - CGI || RPA Developer || Ex-HP R&D Intern <br>
+                        </span><br><br>
+                        <span class="skills">
+
+                            <a href="https://linkedin.com/in/kaustavbanerjee96"><i class="fa fa-linkedin"
+                                    style="font-size: 24px; color: lightblue"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/Kaustav96"><i class="fa fa-github"
+                                    style="font-size: 24px; color: black"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.facebook.com/apocalypsekaustavwolv"><i class="fa fa-facebook"
+                                    style="font-size: 24px; color: blue"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.instagram.com/kaustav_96/"><i class="fa fa-instagram"
+                                    style="font-size: 24px; color:darkred"></i></a>
+                        </span><br><br>
+                        <span class="skills">
+                            <a href="https://shorturl.at/crzEO" target="_blank">
+                                <button class="btn btn-primary">Download My Resume</button>
+                            </a>
+                            <a href="#contact">
+                                <button class="btn btn-primary">Contact Me</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </header>
+    <!--Header section ends-->
+    <!-- About Section -->
+    <section class="success" id="about" style="background: rgb(0,0,0);">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="font-weight: lighter">
+                        
+                        Who am i?
+                    </h2><br>
+                </div>
+            </div> -->
+            <div class="row" style="text-align: justify">
+                <p style="text-align: center; font-size: 30px">
+                    <i class="material-icons" style="font-size:30px;color:goldenrod;">person</i>
+                    <strong>Hi I'm Kaustav Banerjee.</strong>
+                </p>
+                <hr class="star-light">
+                <div class="col-lg-5 col-lg-offset-2">
+                    <p style="font-size: 17px">
+                        Kaustav is a highly effective and results-oriented Software Engineer offering wealth of more
+                        than 1.5 years of expertise and competencies in Java, Web Development and RPA. Kaustav is Certified as an
+                        <b>Advanced RPA Developer</b>. He is considered talented leader when guiding teams and performing tasks for Projects.
+                        Kaustav is a valuable team player with personable and dedicated nature and also skilled at
+                        technical knowledge & leadership, communication and presentations. Kaustav is experienced in full project life cycle
+                        from design to implementation to integration.<br>
+                        He is a motivated and hardworking professional with an eye to learn new technologies and holding
+                        a Bachelor's Degree in Computer Science from Kalinga Institute of Industrial Technology, Bhubaneswar.
+
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:80%">Java - 80%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:85%">HTML - 85%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:80%">PHP - 70%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:90%">RPA - 90%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:70%">JavaScript - 65%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:80%">CSS3 - 80%</div>
+                        </div><br>
+                        <div class="w3-light-grey w3-round">
+                            <div class="w3-container w3-blue w3-round" style="width:80%">MySQL - 80%</div>
+                        </div>
+                        <br><i>*In Search of similar roles(Developement) which will provide him a platform to learn and
+                            grow.</i>
+                    </p>
+                </div>
+
+                <!-- <div class="col-lg-2">
+                    <p>
+                        I have experience with UI design and have Developed various websites in my internships.
+                        I create websites as it helps me keeping updated with latest changes and also helps in increasing my learning.</p>
+                    <p>Other areas of interest being competitive coding, and playing football and writing.</p>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <!--About section ends-->
+    <!-- Education Grid Section -->
+    <section id="portfolio" style="background-color: lightgreen">
+        <div id="education">
+            <div class="container" style="padding-top: 20px;">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2><span class="glyphicon glyphicon-education" style="font-size:34px;"></span>
+                            Education </span></h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <a href="http://kiit.ac.in/">
+                            <div class="thumbnail">
+                                <img src="img/kiit.jpg" alt="Kalinga Institute of Industrial Technology, Bhubaneswar" />
+                                <div class="caption">
+                                    <h4>Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha - 751024</h4>
+                                    <h4 class="pull-right">CGPA: 8.08</h4>
+                                    <a href="http://cse.kiit.ac.in/">
+                                        <p>B.Tech | Class of 2018 <br>(Computer Engineering)
+                                    </a>
+                        </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+                <a href="http://website.dpsfsis.com/">
+                    <div class="thumbnail">
+                        <img src="img/dps.jpg" alt="DPS Faridabad, Haryana">
+                        <div class="caption">
+                            <h4>Delhi Public School, Faridabad, <br>Haryana-121006</h4>
+                            <h4 class="pull-right"> Percentage: 89.2%</h4>
+                            <p><a href="https://en.wikipedia.org/wiki/All_India_Senior_School_Certificate_Examination">AISSCE
+                                    2014 <br>(12th)</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+                <a href="http://website.dpsfsis.com/">
+                    <div class="thumbnail">
+                        <img src="img/dps.jpg" alt="DPS Faridabad, Haryana">
+                        <div class="caption">
+                            <h4>Delhi Public School, Faridabad, <br>Haryana - 121006</h4>
+                            <h4 class="pull-right">CGPA: 9.60</h4>
+                            <p><a href="https://en.wikipedia.org/wiki/All_India_Secondary_School_Examination">AISSE 2012
+                                    <br>(10th)</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--Education grid ends-->
+    <!-- Experience Section begin -->
+    <section class="success" id="experience" style="background:black;padding-top:40px;">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+
+                    <div class="col-lg-12 text-center">
+                        <h3 style="font-size: 32px"><i class="fa fa-briefcase" style="color:red; font-size:34px;"></i> Work Experience & Internships </h3>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="post-preview">
+
+                                <h3 class="post-title" style="color: #18BC9C;">
+                                    <i class="fa fa-briefcase" style="color:red"></i> CGI, Full-Time
+                                </h3>
+                                <h4 class="post-subtitle" style="color: #18BC9C;">
+                                    Associate Software Engineer | Dec 2018 – Present | Bengaluru, Karnataka
+                                </h4>
+
+                                <p class="post-meta">
+                                    <ol>
+                                        <li>
+                                            <b>Purchase Order & Invoice Generation | UiPath, RPA</b>
+                                        </li>
+                                        <ul>
+                                            <li>Working on the problem of finding the correct Purchase order that have not been
+                                                “read” and generating an invoice with correct shipping address details & generating a
+                                                new Purchase Order Number.
+                                            </li>
+                                            <li>
+                                                Performed full automation using UiPath and also used Orchestration Process (To update
+                                                details that have been provided incorrectly by sending email to the required person to
+                                                fill the form task), Triggers and Queues.
+                                            </li>
+                                            <li>
+                                                Achieved 100% accuracy on real-time data given by business in the UAT environment.
+                                            </li>
+                                            <li>
+                                                (Tech used - UiPath Studio, UiPath Orchestrator, Orchestration Process,Triggers)
+                                            </li>
+
+                                        </ul>
+                                        <li>
+                                            <b>Zip Code Verifier | UiPath, RPA</b>
+                                        </li>
+                                        <ul>
+                                            <li>
+                                                Worked on the problem of creating an Automation Project to check for valid Zip Code
+                                                and getting the details of the corresponding Zip Code so that sending items is easier.
+                                            </li>
+                                            <li>
+                                                Performed full automation using UiPath and also used Excel activities for taking data from Excel File
+                                                and generating correct Zip Code list. Also used test tools of UiPath to generate the HTML report for the
+                                                failure & success of test cases.
+                                            </li>
+                                            <li>
+                                                Achieved 81.8 % accuracy on real time data provided by client.
+                                            </li>
+                                        </ul>
+                                        <li>
+                                            <b>Offer Letter Generator | UiPath, RPA</b>
+                                        </li>
+                                        <ul>
+                                            <li>
+                                                Worked on the problem of Automation of generating Offer letter for the selected
+                                                candidate and sending them email automatically once the offer letter has been made.
+                                            </li>
+                                            <li>
+                                                Achieved 100% accuracy on real-time data for generating letter.
+                                            </li>
+                                        </ul>
+                                    </ol>
+                                </p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+        </div>
+
+        </div>
+       
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-preview">
+
+                        <h3 class="post-title" style="color: #18BC9C;">
+                            <i class="fa fa-briefcase" style="color:red"></i> HP R&D, Internship
+                        </h3>
+                        <h4 class="post-subtitle" style="color: #18BC9C;">
+                            R&D Intern | January 2018 – July 2018 | Bengaluru, Karnataka
+                        </h4>
+
+                        <p class="post-meta">
+                            <ol>
+                                <li>Worked in Managed Print Service R&D.</li>
+                                <li>Worked on various upcoming technologies like AngularJs Node.js and AWS.</li>
+                                <li>Wrote API to add new features to the existing project of the online billing system.
+                                </li>
+                                <li>Was part of the team for creating the UI for EMEA region.</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-preview">
+                        <h3 class="post-title" style="color: #18BC9C;">
+                            <i class="fa fa-briefcase" style="color:red"></i> ParamHans Infotec Pvt. Ltd. , Internship
+                        </h3>
+                        <h4 class="post-subtitle" style="color: #18BC9C;">
+                            Web & Application Development Intern | June 2017 – August 2017 | Faridabad, Haryana
+                        </h4>
+                        <p class="post-meta">
+                            <ol>
+                                <li>
+                                    <b>Fashion-Adda Clothing Website | PHP, MySQL, HTML, CSS</b>
+                                </li>
+                                <ul>
+                                    <li>
+                                        Studied basic project requirements with assigned technical lead and planned development
+                                        strategies.
+                                    </li>
+                                    <li>
+                                        Worked on live project and created a full working E-commerce clothing apparel website.
+                                    </li>
+                                    <li>
+                                        Developed user interfaces using Bootstrap, CSS, HTML & supported website through
+                                        database development using PHP & MySQL. <a href="https://bit.ly/2Iqn4F1" target="_blank">
+                                        (Completion Certificate)
+                                    </a>.
+                                    </li>
+                                </ul>
+                                   
+                            </ol>
+                        </p>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-preview">
+                        <h3 class="post-title" style="color: #18BC9C;">
+                            <i class="fa fa-briefcase" style="color:red"></i> Make Room India
+                        </h3>
+                        <h4 class="post-subtitle" style="color: #18BC9C;">
+                            Web Developer Intern | May 2017 – July 2017 | Faridabad, Haryana
+                        </h4>
+                        <p class="post-meta">
+                            <ol>
+                                <li>Worked in the development team as a Web Developer to create a
+                                    new and more responsive website</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Experience Section end-->
+    <!-- Projects Section -->
+
+    <section id="projects" style="background-color: chocolate">
+        <div id="projects">
+            <div class="container" style="padding-top: 20px;">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>
+                            <i class="material-icons" style="font-size: 38px;">work</i>
+                            Projects
+
+                        </h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+
+
+                <div class="container" style="color: black">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="post-preview">
+                                <a href="https://github.com/Kaustav96/nodejs-weather-website" target="_blank"
+                                    style="color:black">
+                                    <h3 class="post-title">
+                                        <i class="material-icons" style="font-size: 24px;">work</i>Weather Finder
+                                    </h3>
+                                    <h4 class="post-subtitle">
+                                        July 2019 | CGI
+                                    </h4>
+                                </a>
+                                <p class="post-meta">
+                                    Developed a Node.js website for finding weather at any location.<br>
+                                    Used DarkSky.net API for finding the weather and also the MapBox API for finding the
+                                    location when user gives input.<br>
+                                    Application has been made Nodejs, MapBox API, DarkNet.sky and has been deployed on
+                                    Heroku.
+                                </p>
+                            </div>
+                            <hr>
+
+                            <div class="post-preview">
+                                <a href="https://github.com/Kaustav96/kaustav-chat-app" target="_blank"
+                                    style="color: black">
+                                    <h3 class="post-title">
+                                        <i class="material-icons" style="font-size: 24px;">work</i>
+                                        Node.js Chat Application
+                                    </h3>
+                                    <h4 class="post-subtitle">
+                                        July 2019 | CGI
+                                    </h4>
+                                </a>
+                                <p class="post-meta">
+                                    Developed a chat application where people can chat among themselves and send their
+                                    live location only if they have joined the same room.
+                                    <br>
+                                    Application has been made completely using NodeJs and has been deployed on Heroku.
+                                </p>
+                            </div>
+                            <hr>
+
+
+                            <div class="post-preview">
+
+                                <h3 class="post-title">
+                                    <i class="material-icons" style="font-size: 24px;">work</i>
+                                    Bizongo Game Zone
+                                </h3>
+                                <h4 class="post-subtitle">
+                                    April 2019 | CGI
+                                </h4>
+
+                                <p class="post-meta">
+                                    A universal billing system,
+                                    in which I was a part of the development team creating the UI and writing
+                                    API to add more features and make the manual work more automated.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="post-preview">
+
+                                <h3 class="post-title">
+                                    <i class="material-icons" style="font-size: 24px;">work</i>
+                                    Car pooling System
+                                </h3>
+                                <h4 class="post-subtitle">
+                                    November 2015 - April 2016 | Software Engineer Lab
+                                </h4>
+
+                                <p class="post-meta">
+                                    In a team of 5, developed an online website for carpooling system keeping women
+                                    security in mind.<br>
+                                    Developed the front end using HTML, CSS, Bootstrap & JavaScript & Back-end using C#
+                                    & SQL Server. Developed the
+                                    Google Maps page using th GoogleMapAPI to give correct distance & time.
+                                </p>
+                            </div>
+                            <hr>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Project section ends-->
+    <!--Achievement section starts-->
+    <section class="success" id="achievements" style="background: rgb(0,0,0);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="font-size: 34px;">
+                        <i class="fa fa-trophy" style="font-size:34px;color:gold"></i>
+                        Achievements</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="post-preview">
+                                    <h3 class="post-title" style="color: #18BC9C;">
+                                        <i class="fa fa-trophy" style="font-size:20px;color:gold"></i>
+                                        Intel Edge AI Scholarship | UDACITY INDIA
+                                    </h3>
+                                    <h4 class="post-subtitle" style="color: #18BC9C;">
+                                        December 2019 - Present
+                                    </h4>
+        
+                                    <p class="post-meta">
+                                        Got selected for 2.5 months scholarship for Intel Edge AI Scholarship.
+                                        
+                                    </p>
+                                </div>
+                        <div class="post-preview">
+
+                            <h3 class="post-title" style="color: #18BC9C;">
+                                <i class="fa fa-trophy" style="font-size:20px;color:gold"></i>
+                                GOOGLE - UDACITY INDIA SCHOLARSHIP | UDACITY INDIA
+                            </h3>
+                            <h4 class="post-subtitle" style="color: #18BC9C;">
+                                February 2018 - April 2018
+                            </h4>
+
+                            <p class="post-meta">
+                                    Got selected for 3 months scholarship in the Mobile Web App Specialist Program.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="post-preview">
+
+                            <h3 class="post-title" style="color: #18BC9C;">
+                                <i class="fa fa-trophy" style="font-size:20px;color:gold"></i>
+                                AMERICAN EXPRESS INTERNSHIP CHALLENGE | HACKEREARTH
+                            </h3>
+                            <h4 class="post-subtitle" style="color: #18BC9C;">
+                                June 2017 - July 2017
+                            </h4>
+
+                            <p class="post-meta">
+                                Came in top 5 from the Event & Top 10 in the interview.<br>
+                                Click to see the final results - <a
+                                    href="https://he-s3.s3.amazonaws.com/media/uploads/94306ba.jpg"
+                                    target="_blank">Result</a>.
+                            </p>
+                        </div>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Achievement section Ends-->
+    <!-- Position of Responsibility -->
+    <section id="cert">
+        <div id="cert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 style="font-size: 32px;">
+                            <i class="fa fa-certificate" style="font-size:34px;"></i>
+                            Certifications
+                        </h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="text-align: center">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="blog-entry">
+                            <a class="blog-img"><img src="img/rpa.png" width="330" class="img-responsive"></a>
+                            <div class="desc">
+                                <span><small>June 10, 2019 </small> | <small> RPA Advanced Developer
+                                        Certification</small></span>
+                                <h3><a>Robotics Process Automation</a></h3>
+                                <p>
+                                    Credential ID - 2104057132815881<br>
+                                    Click to view
+                                    <a href="https://bit.ly/2OqXNOU" target="_blank">certificate</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="blog-entry">
+                            <a class="blog-img"><img src="img/web.jpg" width="400" class="img-responsive"></a>
+                            <div class="desc">
+                                <span><small>February 27, 2019 </small> | <small> The Web Developer
+                                        Bootcamp</small></span>
+                                <h3><a> The Web Developer Bootcamp</a></h3>
+                                <p>
+                                    Credential ID - UC-KHSVG9IY<br>
+                                    Click to view <a href="https://bit.ly/2It7wR8" target="_blank">certificate</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--Position of Responsibility-->
+    <!-- Footer -->
+
+    <footer class="text-center" id="contact">
+        <div class="footer-above" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Faridabad, Haryana</p>
+                        <p>India - 121002</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact</h3>
+                        <p><a href="mailto:kaustavbanerjee96@gmail.com?Subject=Found%20Via%20Website"
+                                target="_top"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                kaustavbanerjee96@gmail.com</a></p>
+                        <p><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="tel:\\">
+                                +91-8376916635</a></p>
+                    </div>
+                    <div class="footer-col col-md-4 mb-5 mb-lg-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7018.206220892116!2d77.33859047380977!3d28.416145430014463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcf815555545%3A0x1e63e93840d4204f!2sSRS+Royal+Hills!5e0!3m2!1sen!2sin!4v1515930814096"
+                            width="300" height="300" frameborder="0" style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Kaustav Banerjee 2018
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll ">
+        <a class="btn btn-warning" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+
+</body>
+
+</html>
